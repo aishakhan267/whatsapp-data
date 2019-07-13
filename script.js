@@ -2,16 +2,144 @@ let circleOrganization = {
     name:"Tech karo",
     purpose:"Women Empowerment",
     passedCohort:1,
+    startingYear:2018,
     currentCohort:"second",
     syllabus:["HTML", "CSS", "Java Script"],
     curriculumResources:["Videos", "Books", "Quizes", "Lectures"],
     references:"tutorials",
+    currentGropus:2,
+    groupsName:["A", "B"],
     certification:"FreeCodeCamp",
     passedGraduates:100,
     employedStudents:67,
     events:["Female Shadowing Class", "Elevate Programme", "Girls Take Charge"],
     lifeSkill:"Self Grooming Program",
+    lifeSkillsTopics:["CV Writing","Effective Communication", "Presentation Stratigies", "Problem Solving", "Discipline Mangement"],
+    speakersOfLifeSkill:[
+        {
+            name:"Sir Tahir",
+            topicCovered:["CV Writing", "Effective Communication"],
+            instituteName:"Amwajj",
+            contactNumber:"0456-3456789",
+            designation:"Motivational Speaker"
+        },
+        {
+            name:"Sir Mansoor",
+            topicCovered:"Effective Communication",
+            instituteName:"Amwajj",
+            contactNumber:"0345-3488789",
+            designation:"Motivational Speaker" 
+        },
+        {
+            name:"Sir Ammar",
+            topicCovered:"Presentation Stratigies",
+            instituteName:"The School of Leadership",
+            contactNumber:"0456-5678432",
+            designation:"Motivational Speaker"
+        },
+        {
+            name:"Sir Jawwad",
+            topicCovered:"Problem Solving",
+            instituteName:"The School of Leadership",
+            contactNumber:"0345-5438411",
+            designation:"Motivational Speaker" 
+        },
+        {
+            name:"Miss Maham",
+            topicCovered:"Discipline Management",
+            instituteName:"The School of Leadership",
+            contactNumber:"0346-54383210",
+            designation:"Motivational Speaker" 
+        }
+    ],
     mentorMeetup:"Last Saturday of Each Month",
+    timingForMentorMeetup:"3 hours",
+    mentorsData:[
+        {
+            name:"Saeed",
+            fromInstitute:"10 Pearls",
+            contactNumber:"0345-8009765",
+            dateOfJoining:"12 Dec,2018",
+            isTechKaroStudent:true,
+            package:20000,
+            lastPackage:8000,
+            previousProfession:"Teacher",
+            isHappy:true,
+            qualification:"F.A"
+        },
+        {
+            name:"Taliya",
+            fromInstitute:"Susta Ticket",
+            contactNumber:"0345-8009789",
+            dateOfJoining:"12 January,2018",
+            isTechKaroStudent:false,
+            package:25000,
+            lastPackage:20000,
+            previousProfession:"Supervisor",
+            isHappy:true,
+            qualification:"Web Developer"
+        },
+        {
+            name:"Sarah",
+            fromInstitute:"Amazon",
+            contactNumber:"0345-8789656",
+            dateOfJoining:"14th Feb,2017",
+            isTechKaroStudent:true,
+            package:40000,
+            lastPackage:20000,
+            previousProfession:"Teacher",
+            isHappy:true,
+            qualification:"Web Designer"
+        },
+        {
+            name:"Saleha",
+            fromInstitute:"10 Pearls",
+            contactNumber:"0345-8009897",
+            dateOfJoining:"1st March,2013",
+            isTechKaroStudent:false,
+            package:35000,
+            lastPackage:8000,
+            previousProfession:"Teacher",
+            isHappy:true,
+            qualification:"Web Developer"
+        },
+        {
+            name:"Kinza",
+            fromInstitute:"10 Pearls",
+            contactNumber:"0300-1079765",
+            dateOfJoining:"4th April,2018",
+            isTechKaroStudent:true,
+            package:35000,
+            lastPackage:12000,
+            previousProfession:"Teacher",
+            isHappy:true,
+            qualification:"Web Developer (Full Stack)"
+        },
+        {
+            name:"Akmal",
+            fromInstitute:"10 Pearls",
+            contactNumber:"0300-1890765",
+            dateOfJoining:"4th August,2018",
+            isTechKaroStudent:true,
+            package:55000,
+            lastPackage:20000,
+            previousProfession:"Designer",
+            isHappy:true,
+            qualification:"Web Developer (Back end)" 
+        },
+        {
+            name:"Falak",
+            fromInstitute:"Amazon",
+            contactNumber:"0346-1220705",
+            dateOfJoining:"30th August,2018",
+            isTechKaroStudent:true,
+            package:40000,
+            lastPackage:12000,
+            previousProfession:"Teacher",
+            isHappy:true,
+            qualification:"Web Developer (Back end)" 
+        }
+    ],
     founder:"Miss Sadaffe",
     faculty:[
         {
@@ -51,7 +179,7 @@ let circleOrganization = {
             gender:"Female"
         },
         {
-            name:"Miss Fahmeen",
+            name:"Miss Moiza",
             designation:"Admin",
             qualification:"Web Developer",
             contactNumber:"0346-6759027",
@@ -191,14 +319,27 @@ let circleOrganization = {
             institutionName:"Orasof",
             contactNumber:"0333-8796453",
             gender:"Male"
+        },
+        {
+            name:"Miss Saleha",
+            qualification:"Web Developer",
+            dateOfJoining:"23rd July 2017",
+            institutionName:"Usman Institute Of Technology",
+            contactNumber:"0300-3456789",
+            gender:"Female" 
         }
     ],
     isProgress:"true",
     fees:500,
+    isFeesLess:true,
+    standardOfEducation:"high",
+    isScholarshipOffers:true,
     durationOfCourse:"8 months",
     classConduction:"3 days weekly",
     classDuration:"4 hours",
     staticSite:"Usman Institute Of Technology",
+    addressOfInstitute:"University Road Near Safari Park",
+    isInternshipOffers:true,
     investmentMonthly:"1,50000",
     vehicleExpense:12000,
     classExpense:10000,
@@ -215,11 +356,20 @@ let circleOrganization = {
         {
             name:"HBL",
             amount:3456,
+        },
+        {
+            name:"Sasta Ticket",
+            amount:9890,
         }
     ],
     collaborations:["HBL", "First Women Bank", "Mitsubishi", "Sasta ticket", "Engro Vopak", "UBL", "TCF"],
     courseTitle:"Web Development",
-    currentStrength:100
+    supportingStaff:10,
+    curriculumDesigner:"Mashood Rasgher",
+    affiliation:["University Of Karachi", "Higher Education Commission"],
+    maleStudent:30,
+    femaleStudent:70,
+    currentStrength: currentStrength
 };
 
 let currentStrength = [
@@ -243,7 +393,6 @@ let currentStrength = [
         maritalStatus:"Single",
         siblings:4,
         isComingFromJob:true
-
     },
     {
         name:"Sameer",
@@ -622,7 +771,6 @@ let currentStrength = [
         maritalStatus:"Single",
         siblings:4,
         isComingFromJob:true
-
     },
     {
         name:"Falak",
@@ -665,6 +813,111 @@ let currentStrength = [
         maritalStatus:"Married",
         siblings:3,
         isComingFromJob:true
+    },
+    {
+        name:"Rabia",
+        contactNumber:"0346-56782343",
+        education:"B.Sc",
+        hasPromoCode:true,
+        group:"B",
+        hobbies:["Reading", "Cooking", "Coding"],
+        age:50,
+        isHappy:false,
+        height:6,
+        cnic:"41446-443217-8",
+        email:"rabiazahee@gmail.com",
+        gender:"Female",
+        address:"Liaquatabad",
+        isEmployed:false,
+        fatherName:"Noman",
+        fatherIncome:2000,
+        maritalStatus:"Single",
+        siblings:2,
+        isComingFromJob:true
+    },
+    {
+        name:"Sidra",
+        contactNumber:"0333-1234567",
+        education:"B.A",
+        hasPromoCode:true,
+        group:"B",
+        hobbies:["Sketching", "Drawing", "Sleeping"],
+        age:50,
+        isHappy:false,
+        height:3,
+        cnic:"41446-443217-8",
+        email:"sidrakhan@gmail.com",
+        gender:"Female",
+        address:"PIB Colony",
+        isEmployed:true,
+        fatherName:"Arsalan",
+        fatherIncome:30000,
+        maritalStatus:"Single",
+        siblings:1,
+        isComingFromJob:true 
+    },
+    {
+        name:"Somiya",
+        contactNumber:"0346-2198706",
+        education:"B.A",
+        hasPromoCode:true,
+        group:"A",
+        hobbies:["Painting", "Drawing"],
+        age:100,
+        isHappy:false,
+        height:4,
+        cnic:"41446-987654-8",
+        email:"somiyaansari@gmail.com",
+        gender:"Female",
+        address:"Orangi Town",
+        isEmployed:true,
+        fatherName:"Zubair",
+        fatherIncome:45000,
+        maritalStatus:"Married",
+        siblings:1,
+        isComingFromJob:false
+    },
+    {
+        name:"Samiya",
+        contactNumber:"0345-2198906",
+        education:"B.A",
+        hasPromoCode:false,
+        group:"A",
+        hobbies:"Drawing",
+        age:100,
+        isHappy:false,
+        height:4,
+        cnic:"41446-987654-8",
+        email:"samiyasohail@gmail.com",
+        gender:"Female",
+        address:"Gulshan",
+        isEmployed:true,
+        fatherName:"Zakir Khan",
+        fatherIncome:40000,
+        maritalStatus:"Married",
+        siblings:3,
+        isComingFromJob:false 
+    },
+    {
+        name:"Noman",
+        contactNumber:"0345-9876543",
+        education:"B.A",
+        hasPromoCode:false,
+        group:"B",
+        hobbies:"Sleeping",
+        age:101,
+        isHappy:true,
+        height:5,
+        cnic:"33446-145354-7",
+        email:"nomantweet@gmail.com",
+        gender:"Male",
+        address:"Sadar",
+        isEmployed:true,
+        fatherName:"Ashfaq Khan",
+        fatherIncome:10000,
+        maritalStatus:"Married",
+        siblings:2,
+        isComingFromJob:true 
     }
 ];
 let whatsApp = [
